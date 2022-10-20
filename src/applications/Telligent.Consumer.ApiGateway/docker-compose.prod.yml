@@ -1,0 +1,20 @@
+version: '3.4'
+
+services:
+  telligent.consumer.apigateway:
+    image: telligent.consumer.apigateway
+    build:
+      context: ../../../
+      dockerfile: ./src/applications/Telligent.Consumer.ApiGateway/Dockerfile
+    restart: always
+    container_name: telligent.consumer.apigateway
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+    ports:
+      - "8000:443"
+    networks: 
+     telligent.consumer.apigateway: {}
+
+networks:
+  telligent.consumer.apigateway:
+    name: telligent.consumer.apigateway

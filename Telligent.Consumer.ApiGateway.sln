@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9846CC12-A086-494D-87C0-A9295FC395CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "applications", "applications", "{634248BF-F9FD-4F5D-A0F9-528F3E5A266B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Telligent.Consumer.ApiGateway", "src\applications\Telligent.Consumer.ApiGateway\Telligent.Consumer.ApiGateway.csproj", "{E2CEE040-4B61-4FCF-85BE-FD6C159EE6AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2CEE040-4B61-4FCF-85BE-FD6C159EE6AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2CEE040-4B61-4FCF-85BE-FD6C159EE6AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2CEE040-4B61-4FCF-85BE-FD6C159EE6AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2CEE040-4B61-4FCF-85BE-FD6C159EE6AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{634248BF-F9FD-4F5D-A0F9-528F3E5A266B} = {9846CC12-A086-494D-87C0-A9295FC395CE}
+		{E2CEE040-4B61-4FCF-85BE-FD6C159EE6AF} = {634248BF-F9FD-4F5D-A0F9-528F3E5A266B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DEA54DB4-89DE-40AC-B93C-A72FCA0C3EE1}
+	EndGlobalSection
+EndGlobal
