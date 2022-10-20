@@ -1,0 +1,1 @@
+telligent.consumer.apigateway
